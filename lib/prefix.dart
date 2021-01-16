@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main(List<String> arguments) {
   var a = 10;
   print(a);
@@ -15,7 +13,7 @@ void main(List<String> arguments) {
   a++;
   print("a = ${a}");
 
-   a = 10;
+  a = 10;
   print(a);
   // decrement
   a--;
